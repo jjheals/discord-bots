@@ -1,0 +1,4 @@
+**!commands** will list all the commands I know.
+**!hello** will say hello!
+**!resources or !help** will list mental health resources that you can get in contact with 24/7.
+**!positivity** will spread positivity with a short phrase. 
