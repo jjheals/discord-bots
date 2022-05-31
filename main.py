@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TOKEN = "OTQxMTMyOTQ1MzU0MjcyNzk4.YgRgWw.O2iXXzWD4vARyipRMuW80oV-0P0"
+TOKEN = "private"
 
 client = discord.Client()
 
