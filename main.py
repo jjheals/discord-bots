@@ -1,14 +1,9 @@
-# bot.py
-import gettext
 import os
+import discord
+from keep_alive import keep_alive
 import random
 
-import discord
-from dotenv import load_dotenv
-
-load_dotenv()
-
-TOKEN = "private"
+TOKEN = os.environ['TOKEN']
 
 client = discord.Client()
 
@@ -88,4 +83,6 @@ async def on_message(message):
         
         else: return
         
+
+keep_alive()
 client.run(TOKEN)
